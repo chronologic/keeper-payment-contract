@@ -13,7 +13,7 @@
     "ganache:test": "ganache-cli --networkId 1006 --port 8546 --gasLimit 8000000 --gasPrice 100000000000",
     "deployed-addresses": "truffle networks",
     "clean-contracts": "mkdir -p clean_build/contracts && rm -r clean_build/* && python3 scripts/clean.py",
-    "build-release": "npm run clean-contracts && git checkout release && mkdir -p artifacts/contracts && rm -r artifacts/* && cp -r clean_build artifacts"
+    "build-release": "npm run clean-contracts && git checkout release && mkdir -p artifacts/contracts && rm -r artifacts/* && cp -r clean_build/ artifacts/"
   },
   "author": "Marcin Żółkiewski",
   "license": "",
