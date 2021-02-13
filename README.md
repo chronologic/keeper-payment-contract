@@ -21,8 +21,8 @@ Below is a list of possible environment variables.
 | `DEPLOYER_ADDRESS`     | `string` |         | Address of the deployer                                                                        |
 | `DEPLOYER_PRIVATE_KEY` | `string` |         | Private key of the deployer                                                                    |
 | `ETHERSCAN_API_KEY`    | `string` |         | API key for Etherscan to automatically deploy contract source code via `truffle-plugin-verify` |
-| `MAINNET_RPC_URL`      | `string` |         | RPC URL for mainnet (.e.g from Infura)                                                         |
-| `ROPSTEN_RPC_URL`      | `string` |         | RPC URL for ropsten (.e.g from Infura)                                                         |
+| `MAINNET_RPC_URL`      | `string` |         | RPC URL for mainnet (.e.g from [Infura](https://infura.io/))                                                         |
+| `ROPSTEN_RPC_URL`      | `string` |         | RPC URL for ropsten (.e.g from [Infura](https://infura.io/))                                                         |
 
 ## Deployment
 
